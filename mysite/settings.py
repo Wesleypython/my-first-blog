@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^a28#w*9l-h#q477lfflkghjdx%^*)3gqgaq^ue=c=%-2s4i-=
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
+""" caminho para o anywhere"""
 
 # Application definition
 
@@ -119,8 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static'
-
+STATIC_ROOT = BASE_DIR / 'static' 
+"""" caminho para o CSS"""
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
