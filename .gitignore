@@ -1,0 +1,5 @@
+myvenv/
+__pycache__/
+db.sqlite3
+aula.py
+lista.txt
