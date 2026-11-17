@@ -1,0 +1,21 @@
+django-admin.exe startproject mysite .
+
+* Cria a pasta mysite
+* Cria o arquivo manage.py (manage.py é um script que ajuda com a gestão do site. )
+
+
+
+obs: o que é um objeto? É uma coleção de propriedades e ações.
+
+
+Para criar uma aplicação, precisamos executar o seguinte comando no prompt:
+* python manage.py startapp blog
+* python manage.py runserver
+
+Cada arquivo tem uma função só:
+models.py: quais dados existem.
+urls.py: quais endereços existem.
+views.py: o que fazer quando alguém acessa um endereço.
+templates/: como mostrar o resultado.
+static/: CSS, imagens, JS.
+forms.py: formulários ligados aos models.
